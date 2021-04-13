@@ -97,7 +97,7 @@ else{
 
 //crea un array vuoto
 
-var contenitore = [];
+/* var contenitore = [];
 
 //crea un ciclo for e chiedi per 6 volte all'utente di inserire un numero
 
@@ -108,4 +108,77 @@ for (var i = 0; i < 6; i++){
  } 
 }
 
-console.log(contenitore);
+console.log(contenitore); */
+
+
+//SNACK6
+/* 
+//utente estrae un numero
+var numero_estratto = parseInt(prompt("Inserisci un numero"));
+//tutti i numeri precedenti devono essere al cubo
+var somma = 0;
+
+for (i=1; i < numero_estratto; i++){
+  console.log(i);
+  console.log(Math.pow(i,3))
+  somma += Math.pow(i, 3);
+}
+  
+console.log(somma);
+ */
+
+
+//snack7
+
+
+/* var tot_potenza = 0;
+var i = 1;
+
+while (tot_potenza < 1000){
+  console.log(tot_potenza);
+  console.log(i);
+  console.log("---------");
+  tot_potenza = Math.pow(2, i);
+  i++;
+}
+
+//correzione
+
+var limite = 1000;
+var potenza;
+var counterPotenza = 1;
+
+while (potenza < limite){
+  console.log(potenza);
+  potenza = Math.pow(2, counterPotenza);
+  counterPotenza++;
+}
+
+//Altra soluzione
+
+While (potenza < limite){
+  console.log(potenza);
+  potenza +=2;
+}
+ */
+
+//snack8
+
+/* **JSnack 8**
+Chiedi un numero di 4 cifre all’utente
+e calcola la somma di tutte le cifre che compongono il numero.
+(qui è necessaria una ricerca nella documentazione) */
+
+var serie = prompt("Inserisci un numero di quattro cifre");
+
+
+var somma = 0;
+var i = 0;
+
+while(i < 4){
+  var n = parseInt(serie.charAt(i));
+  somma += n;
+  i++;
+  console.log(somma);
+}
+
