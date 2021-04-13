@@ -169,7 +169,7 @@ Chiedi un numero di 4 cifre all’utente
 e calcola la somma di tutte le cifre che compongono il numero.
 (qui è necessaria una ricerca nella documentazione) */
 
-var serie = prompt("Inserisci un numero di quattro cifre");
+/* var serie = prompt("Inserisci un numero di quattro cifre");
 
 
 var somma = 0;
@@ -181,4 +181,27 @@ while(i < 4){
   i++;
   console.log(somma);
 }
+ */
 
+
+//snack9 Calcola la somma e la media dei primi 10 numeri.
+/* 
+var serie = "0123456789";
+
+
+var somma = 0;
+var i = 0;
+
+while(i < 10){
+  var n = parseInt(serie.charAt(i));
+  console.log("numero")
+  console.log(i);
+  somma += n;
+  i++;
+  console.log("Totale")
+  console.log(somma);
+  console.log("Media")
+  console.log(somma / i);
+  console.log("-------")
+}
+ */
